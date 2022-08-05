@@ -8,7 +8,7 @@ public class PathingSpot : MonoBehaviour
 {
 	public List<GameObject> Paths;
 
-	/*private void OnDrawGizmos()
+	private void OnDrawGizmos()
 	{
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireSphere(transform.position, 0.1f);
@@ -17,5 +17,5 @@ public class PathingSpot : MonoBehaviour
 		{
 			Gizmos.DrawLine(transform.position, spot.transform.position);
 		}
-	}*/
+	}
 }
