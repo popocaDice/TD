@@ -10,12 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6577875988224550495}
   - component: {fileID: 6577875988224550496}
-  - component: {fileID: 7892679295466115898}
+  - component: {fileID: 6577875988224550497}
   - component: {fileID: -3788725341085606329}
   - component: {fileID: -283606819610298280}
-  - component: {fileID: 1986439973270143316}
   m_Layer: 0
-  m_Name: GuitarristaTorre
+  m_Name: 'GuitarristaTorre '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7892679295466115898
+--- !u!114 &6577875988224550497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,13 +96,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6577875988224550498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5abbae1a605981346bd2d4365d164e76, type: 3}
+  m_Script: {fileID: 11500000, guid: 44bbeee7b6e2c3c48af3dfc10d170bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 10
   fireRate: 100
   detectionRange: 5
-  detectionWidth: 2
 --- !u!114 &-3788725341085606329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,25 +139,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!95 &1986439973270143316
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6577875988224550498}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: de43a5289b9c3f140b2347cf7ada6eb5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

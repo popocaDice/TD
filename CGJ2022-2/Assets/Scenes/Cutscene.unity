@@ -490,9 +490,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'HISTORIA DO JOGO
-
-    ME MAMA'
+  m_text: "Relat\xF3rio:\r\n\r\nDepois da descoberta de um portal estranho nessa
+    cidade, zumbis come\xE7aram a infestar as ruas, por sorte, temos uma solu\xE7\xE3o,
+    parece que esses zumbis s\xE3o vulner\xE1veis a sons ruins, descobrimos isso
+    devido a um cidad\xE3o que resolveu utilizar suas caixas de som gigantescas para
+    fazer uma pegadinha com seu vizinho, colocando uma das m\xFAsicas da banda de
+    Rock Cracking Ears no volume mais alto poss\xEDvel, todos os zumbis que escutaram
+    essa m\xFAsica horrorosa explodiram como se fosse m\xE1gica, al\xE9m disso, confirmamos
+    15 casos de surdez s\xFAbita, 1 caso de loucura e 1 caso de coma na nossa popula\xE7\xE3o,
+    todas aconteceram em volta da caixa de som, que tamb\xE9m eliminou cerca de 100
+    dos zumbis mais pr\xF3ximos, confiscamos a caixa de som e conseguimos reproduzir
+    seu efeito nos zumbis e uma das \xE1reas de risco foi defendida com sucesso,
+    vamos encomendar mais dessas para nos ajudar, por\xE9m, o caminho at\xE9 o portal
+    ainda \xE9 longo, e nossos recursos s\xE3o escassos, conseguimos contato com
+    os integrantes da banda e eles v\xE3o ajudar a nossa cidade, eu vou pessoalmente
+    organiz\xE1-los para limpar caminho at\xE9 o portal, mas eu preciso arranjar
+    tamp\xF5es de ouvido, e dos bons, pois eu me recuso a acreditar que um ser humano
+    sobreviveria um album inteiro deles.\r\n\r\nPS: Tamb\xE9m prendi o autor da pegadinha,
+    considerei a a\xE7\xE3o dele como um crime a vida.\r\n\r\n- Bartolomeu, Governo
+    de Boombaps"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -519,8 +535,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -638,5 +654,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d6e1787681560469a006b3166e3498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.004
-  maxHeight: 10
+  scrollSpeed: 0.008
+  maxHeight: 20

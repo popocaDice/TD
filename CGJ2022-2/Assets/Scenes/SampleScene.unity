@@ -2009,7 +2009,7 @@ PrefabInstance:
     - target: {fileID: 4934830334976365587, guid: e6214404ee0e57844bd219aa7ef5f4c0, type: 3}
       propertyPath: TurretType
       value: 
-      objectReference: {fileID: 6577875988224550498, guid: 566a280d12eb85f43a26244c39f01c69, type: 3}
+      objectReference: {fileID: 6577875988224550498, guid: 7fd3bcbde6f847047803cc4ee75e4a70, type: 3}
     - target: {fileID: 4934830334976365588, guid: e6214404ee0e57844bd219aa7ef5f4c0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2874,7 +2874,7 @@ PrefabInstance:
     - target: {fileID: 4934830334976365587, guid: e6214404ee0e57844bd219aa7ef5f4c0, type: 3}
       propertyPath: TurretType
       value: 
-      objectReference: {fileID: 6577875988224550498, guid: 566a280d12eb85f43a26244c39f01c69, type: 3}
+      objectReference: {fileID: 6577875988224550498, guid: 7fd3bcbde6f847047803cc4ee75e4a70, type: 3}
     - target: {fileID: 4934830334976365588, guid: e6214404ee0e57844bd219aa7ef5f4c0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3522,7 +3522,7 @@ PrefabInstance:
     - target: {fileID: 4934830334976365587, guid: e6214404ee0e57844bd219aa7ef5f4c0, type: 3}
       propertyPath: TurretType
       value: 
-      objectReference: {fileID: 6577875988224550498, guid: 566a280d12eb85f43a26244c39f01c69, type: 3}
+      objectReference: {fileID: 6577875988224550498, guid: 7fd3bcbde6f847047803cc4ee75e4a70, type: 3}
     - target: {fileID: 4934830334976365588, guid: e6214404ee0e57844bd219aa7ef5f4c0, type: 3}
       propertyPath: m_RootOrder
       value: 1

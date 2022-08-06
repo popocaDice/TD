@@ -19,6 +19,7 @@ public class DragnDropTurret : MonoBehaviour
 		origin = transform.position;
 		originalColor = GetComponent<SpriteRenderer>().color;
 		active = true;
+		GetComponent<SpriteRenderer>().sprite = TurretType.GetComponent<SpriteRenderer>().sprite;
     }
 
     // Update is called once per frame
