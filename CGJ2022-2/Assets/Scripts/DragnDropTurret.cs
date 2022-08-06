@@ -11,6 +11,8 @@ public class DragnDropTurret : MonoBehaviour
 
 	private Vector3 clicked, origin;
 	private Color originalColor;
+	private TurretBase turret;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +49,7 @@ public class DragnDropTurret : MonoBehaviour
 			{
 				active = false;
 				GetComponent<SpriteRenderer>().color = Color.grey;
-				TurretBase turret = Instantiate(TurretType, c.transform).GetComponent<TurretBase>();
+				turret = Instantiate(TurretType, c.transform).GetComponent<TurretBase>();
 				turret.icon = gameObject;
 			}
 		}

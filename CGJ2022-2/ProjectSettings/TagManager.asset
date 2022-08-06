@@ -48,11 +48,11 @@ TagManager:
   - name: Background
     uniqueID: 1106202029
     locked: 0
-  - name: Tiles
-    uniqueID: 345950053
-    locked: 0
   - name: Enemies
     uniqueID: 150545493
+    locked: 0
+  - name: Tiles
+    uniqueID: 345950053
     locked: 0
   - name: Particles
     uniqueID: 3004173129
